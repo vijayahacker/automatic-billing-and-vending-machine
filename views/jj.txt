@@ -1,0 +1,9 @@
+table customer = {cid, name, mobile};
+table itemsbill={iid, pid, quantity, invoice, ptotal};
+table bill={invoice, cid,timestamp, gTotal);
+table products={pid, pname, ppu,avq);
+
+
+
+i wanna get the following json object from the php server:
+

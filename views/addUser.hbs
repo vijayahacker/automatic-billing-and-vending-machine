@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="c.css">
+    <title>Document</title>
+</head>
+
+<body class=" w3-larger" onload="onloadfn()">
+    <nav class="w3-border-bottom w3-padding w3-card c-row">
+        <ia>🔲</ia>
+        <h4 class="w3-center c-width" center><b>myStore</b></h4>
+    </nav>
+    <div class="w3-container">
+        <div class="w3-container w3-center c-space-top">
+            <h1>My Store</h1>
+        </div>
+        <div class="w3-container w3-center">
+            <form action="addUser" method="get">
+                <p id="res" hidden>{{res}}</p>
+                <input id="mobile" class="w3-input w3-border w3-round-large" type="text" name="mobile"
+                    placeholder="☎️ mobile number" value='{{mobile}}'>
+                <br>
+                <p class="w3-tiny w3-text-red w3-left" id="notice"></p>
+                <input id="mobile" class="w3-input w3-border w3-round-large" type="text" name="name"
+                    placeholder="👤 Full name">
+                <br>
+                <button type="submit" class="w3-button c-width w3-card w3-black w3-round-large">Next</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./js/additem.js"></script>
+</html>
